@@ -1,0 +1,81 @@
+body
+{
+    background-image:url("background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container
+{
+    height:90vh;
+    width:90vw;
+    border:3px solid red;
+    margin:2%;
+    margin-left: 5%;
+    display: flex;
+}
+.wish
+{
+    float:left;
+    height:90vh;
+    width:30vw;
+    background:linear-gradient(45deg,yellow,black,red,gold,goldenrod);
+}
+.content
+{
+    float:right;
+    height:90vh;
+    width:60vw;
+    background:linear-gradient(45deg,green,black,red,limegreen,lime);
+  
+}
+button
+{
+    height:60px;
+    width:350px;
+    margin:5px;
+    margin-left: 25px;
+    background: linear-gradient(60deg,black,blue,navy);
+    color:white;
+    font-weight: bold;
+    font-size: x-large;
+    border-radius: 10px;
+    cursor:pointer;
+}
+button:hover
+{
+    color:yellow;
+}
+.msg
+{
+    height:500px;
+    width:500px;
+    border:2px solid white;
+    margin:5% 18%;
+    background: linear-gradient(60deg,black,gold,goldenrod,yellow);
+}
+h2
+{
+    text-align: center;
+    font-weight: bold;
+    font-family: fantasy;
+    color:darkblue;
+    font-size:xx-large;
+}
+p
+{
+    text-align: center;
+    font-weight: bold;
+    font-family: fantasy;
+    color:darkgreen;
+    margin-top: 25%;
+    font-size: x-large;
+}
+h2:hover
+{
+    color:skyblue;
+}
+p:hover
+{
+    color:teal;
+}
