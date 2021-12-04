@@ -3,10 +3,21 @@
     <head>
         <title>Wishes By Touch</title>
         <link rel=stylesheet href="style.css" />
+        <style>
+            h3
+            {
+                color:cornflowerblue;
+                text-align: center;
+                font-size: xx-large;
+                font-weight: bold;
+            }
+        </style>
     </head>
+
     <body>
         <div class="container">
             <div class="wish">
+
                 
                 <button onclick="gm()">Good Morning</button><br>
                 <button onclick="ga()">Good Afternoon</button><br>
@@ -20,7 +31,10 @@
             </div>
             <div class="content">
                 <div class="msg">
-                <h2 >BEST WISHES HERE!!!</h2>
+                <h2 ><span id="change">BEST WISHES HERE!!!</span>
+                </h2>
+                <h3>TAMIL</h3>
+
                 <p id="p1">Please Click the Wish Buttons</p>
             </div>
 

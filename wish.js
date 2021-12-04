@@ -2,15 +2,15 @@ function gm()
 {
     var h2Ref=document.querySelector("h2");
     console.log(h2Ref);
-    h2Ref.innerText="GOOD MORNING!!!";
-    h2Ref.style.color="maroon";
-    document.getElementById("p1").innerHTML = "Good morning to you. May every step you make be filled with happiness, love, and peace!";
+    h2Ref.innerText="GOOD MORNING!!! "; 
+    h2Ref.style.color="brown";
+    document.getElementById("p1").innerHTML = "Good Morning.You are the best man in this world. Have a Nice day!";
 }
 function ga()
 {
     var h2Ref=document.querySelector("h2");
     console.log(h2Ref);
-    h2Ref.innerText="GOOD AFTERNOON"; 
+    h2Ref.innerText="GOOD AFTERNOON!!! "; 
     h2Ref.style.color="hotpink";
 
     document.getElementById("p1").innerHTML = "You are the best man in this world. In this sweet afternoon, I want to tell you that you have made my world beautiful. Good afternoon. Enjoy your lunch!";
@@ -50,7 +50,7 @@ function valan()
 {
     var h2Ref=document.querySelector("h2");
     console.log(h2Ref);
-    h2Ref.innerText="HAPPY VALANTINES";
+    h2Ref.innerText="HAPPY VALANTINES DAY!!! ";
     h2Ref.style.color="red";
 
     document.getElementById("p1").innerHTML = "You are my sunshine, sweet blessing and drop of joy. I wouldn’t have been able to do anything without you. I love you!";
@@ -70,7 +70,7 @@ function cong()
 {
     var h2Ref=document.querySelector("h2");
     console.log(h2Ref);
-    h2Ref.innerText="CONGRATULATIONS!!!";
+    h2Ref.innerText="CONGRATULATIONS !!!";
     h2Ref.style.color="orangered";
 
     document.getElementById("p1").innerHTML = "Congratulations on your new job! I am so happy to see you fulfilling all your dreams. You deserve this job, and I am so proud of you— best of luck for your bright future!";
